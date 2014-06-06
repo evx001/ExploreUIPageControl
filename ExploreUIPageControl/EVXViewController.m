@@ -9,6 +9,9 @@
 #import "EVXViewController.h"
 
 @interface EVXViewController ()
+@property (strong, nonatomic) IBOutlet UIView *imageOne;
+@property (weak, nonatomic) IBOutlet UIImageView *imageTwo;
+@property (weak, nonatomic) IBOutlet UIImageView *imageThree;
 
 @end
 
