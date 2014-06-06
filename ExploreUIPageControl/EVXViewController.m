@@ -12,6 +12,7 @@
 @property (strong, nonatomic) IBOutlet UIView *imageOne;
 @property (weak, nonatomic) IBOutlet UIImageView *imageTwo;
 @property (weak, nonatomic) IBOutlet UIImageView *imageThree;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 
 @end
 
