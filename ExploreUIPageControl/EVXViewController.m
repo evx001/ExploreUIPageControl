@@ -24,6 +24,12 @@
 @end
 
 @implementation EVXViewController
+- (IBAction)pageControllerChanged:(id)sender {
+    [self.currentView setHidden:YES];
+    int selectedPage = self.pageControl.currentPage;
+    self.currentView = self.imageViews [selectedPage];
+    [self.currentView setHidden:NO];
+}
 
 - (void)viewDidLoad
 {
