@@ -9,10 +9,17 @@
 #import "EVXViewController.h"
 
 @interface EVXViewController ()
-@property (strong, nonatomic) IBOutlet UIView *imageOne;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (weak, nonatomic) IBOutlet UIImageView *imageOne;
 @property (weak, nonatomic) IBOutlet UIImageView *imageTwo;
 @property (weak, nonatomic) IBOutlet UIImageView *imageThree;
-@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+
+
+
+// a container for our pageControl Contense
+// Xcode complained about the weak for NSArray
+@property (strong, nonatomic) NSArray *imageViews;
+@property (strong, nonatomic) UIImageView *currentView;
 
 @end
 
@@ -21,7 +28,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.imageViews =@[self.imageOne, self.imageTwo, self.imageThree];
+    self.currentView = self.imageOne;
+    [self.imageTwo setHidden:YES];
+    [self.imageThree setHidden:YES];
+
 }
 
 - (void)didReceiveMemoryWarning
