@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A30B5D87-DCEB-4C17-8CF9-7D74AC3A5470</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ExploreUIPageControl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2ED92616-80AA-400D-A37C-B6F57598A028</key>
+		<string>https://github.com/evx001/ExploreUIPageControl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ExploreUIPageControl.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2ED92616-80AA-400D-A37C-B6F57598A028</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/evx001/Xcode001.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2ED92616-80AA-400D-A37C-B6F57598A028</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2ED92616-80AA-400D-A37C-B6F57598A028</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ExploreUIPageControl</string>
+		</dict>
+	</array>
+</dict>
+</plist>
